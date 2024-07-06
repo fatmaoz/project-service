@@ -200,6 +200,8 @@ public class ProjectServiceImpl implements ProjectService {
 
         //TODO Retrieve the completed and non-completed task counts from task-service
 
+        return new ProjectDTO();
+
     }
 
     private void completeRelatedTasks(String projectCode) {
